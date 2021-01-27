@@ -1,0 +1,24 @@
+{
+    "name": "dml/dtk",
+    "keywords" : ["大淘客", "多米粒", "dtk", "sdk", "dtk-sdk"],
+    "homepage": "https://github.com/1185288810/dml-dtk.git",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "lishun",
+            "email": "1185288810@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "require-dev": {
+        "php": ">=7.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dtk\\": "src/"
+        }
+    }
+}
