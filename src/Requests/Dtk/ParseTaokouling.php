@@ -10,7 +10,7 @@ use Dtk\Requests\DtkRequest;
 class ParseTaokouling extends DtkRequest
 {
     public $version = 'v1.0.0';
-    public $api = 'tb-service/parse-taokouling';
+    public $api = '/tb-service/parse-taokouling';
     /**
      * 额外参数文档
      * @var string

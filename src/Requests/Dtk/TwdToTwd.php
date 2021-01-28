@@ -10,7 +10,7 @@ use Dtk\Requests\DtkRequest;
 class TwdToTwd extends DtkRequest
 {
     public $version = 'v1.0.0';
-    public $api = 'tb-service/twd-to-twd';
+    public $api = '/tb-service/twd-to-twd';
     /**
      * 额外参数文档
      * @var string

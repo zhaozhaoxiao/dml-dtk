@@ -9,7 +9,7 @@ use Dtk\Requests\DtkRequest;
  */
 class GetGoodsList extends DtkRequest
 {
-    public $version = 'v1.2.3';
+    public $version = 'v1.2.4';
     public $api = '/goods/get-goods-list';
     /**
      * 额外参数文档

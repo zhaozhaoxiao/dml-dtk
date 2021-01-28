@@ -10,7 +10,7 @@ use Dtk\Requests\DtkRequest;
 class ParseContent extends DtkRequest
 {
     public $version = 'v1.0.0';
-    public $api = 'tb-service/parse-content';
+    public $api = '/b-service/parse-content';
     /**
      * 额外参数文档
      * @var string
