@@ -141,12 +141,15 @@ ERRORSCODELIST;
      */
     public function DataProcessing($data)
     {
-        $data = (object)json_decode($data, true);
-        //错误码检查
-        if (!$this->ErrorCode((int)$data->code)) {
-            throw new \InvalidArgumentException((string)$data->msg);
+        $data = json_decode($data, true);
+
+        if (empty($data['data'])) {
+            $this->error = $data['msg'];
+
+            $this->apiData = array();
+        } else {
+            $this->apiData = $data['data'];
         }
-        $this->apiData = $data->data;
     }
 
     /**
