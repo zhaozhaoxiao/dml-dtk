@@ -10,7 +10,7 @@ use Dtk\Requests\DtkRequest;
 class GetOrderDetails extends DtkRequest
 {
     public $version = 'v1.0.0';
-    public $api = 'tb-service/get-order-details';
+    public $api = '/tb-service/get-order-details';
     /**
      * 额外参数文档
      * @var string
