@@ -10,7 +10,7 @@ use Dtk\Requests\DtkRequest;
 class FirstOrderGiftMoney extends DtkRequest
 {
     public $version = 'v1.0.0';
-    public $api = 'goods/first-order-gift-money';
+    public $api = '/goods/first-order-gift-money';
     /**
      * 额外参数文档
      * @var string
