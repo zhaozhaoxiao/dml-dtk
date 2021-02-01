@@ -10,7 +10,7 @@ use Dtk\Requests\DtkRequest;
 class CreatTaokouling extends DtkRequest
 {
     public $version = 'v1.0.0';
-    public $api = 'tb-service/creat-taokouling';
+    public $api = '/tb-service/creat-taokouling';
     /**
      * 额外参数文档
      * @var string
