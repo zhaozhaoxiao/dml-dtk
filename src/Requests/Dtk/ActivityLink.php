@@ -10,7 +10,7 @@ use Dtk\Requests\DtkRequest;
 class ActivityLink extends DtkRequest
 {
     public $version = 'v1.0.0';
-    public $api = 'tb-service/activity-link';
+    public $api = '/tb-service/activity-link';
     /**
      * 额外参数文档
      * @var string
